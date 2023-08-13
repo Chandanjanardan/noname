@@ -22,6 +22,7 @@ function Middleware() {
     <>
     <Filter/>
    <Dashboard data={currentPosts} currentPage={currentPage} firstPostIndex={firstPostIndex}/>
+   <Dashboard data={currentPosts} currentPage={currentPage} firstPostIndex={firstPostIndex}/>
    <Pagination  totalPosts={jsonData.length}
                 postsPerPage={postsPerPage}
                 setCurrentPage={setCurrentPage}
